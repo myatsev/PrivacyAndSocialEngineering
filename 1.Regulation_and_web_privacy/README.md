@@ -97,12 +97,26 @@ Let's look at the information about cookies on the Old School Runescape landing 
 <summary><strong>Use the Details tab of the cookie banner to answer the following</strong></summary>
 <br>
 
-* How many necessary cookies are there? 
-* What happens if you try to disable necessary cookies? 
-* List at least 6 different expiry times from the necessary cookies 
-* List 3 different cookie types from necessary cookies 
-* In Statistics, what are the expiry time and cookie type of **JXWEBUID** 
-* In Statistics and Marketing, what other Apps or Companies are listed, other than Jagex 
+* How many necessary cookies are there?
+  > 73 necessary cookies
+* What happens if you try to disable necessary cookies?
+  > I blocked all cookies from the page through the FireFox settings. One interesting thing happening now is that when I press "login", I get hit with an infinite loop of "are you a robot?" security checks - because my information is not being stored as cookies are blocked. Basic functionalities of the page are lost, therefore the webpage itself does not give you the option to block necessary cookies and it can only be done through the browser settings.
+* List at least 6 different expiry times from the necessary cookies
+  > Tue, 17 Mar 2026 12:52:37 GMT, 
+  > Tue, 13 Apr 2027 11:00:02 GMT, 
+  > Mon, 15 Jun 2026 12:32:35 GMT, 
+  > Wed, 21 Apr 2027 12:56:03 GMT, 
+  > Tue, 14 Apr 2026 12:32:34 GMT, 
+  > Sun, 13 Sep 2026 11:00:01 GMT
+* List 3 different cookie types from necessary cookies
+  > HTTP Cookie, 
+  > HTML Local Storage, 
+  > Pixel Tracker
+* In Statistics, what are the expiry time and cookie type of **JXWEBUID**
+  > Expires / Max-Age:"Wed, 21 Apr 2027 10:49:31 GMT" or in general 400 days
+  > Cookie type: HTTP Cookie
+* In Statistics and Marketing, what other Apps or Companies are listed, other than Jagex
+  > Taboola, YouTube, Meta Platforms, Inc., Google, Quantcast, Reddit, TikTok, Amazon, Twitter Inc., Appnexus
 
 </details>
 
@@ -138,10 +152,17 @@ Run the test made by EFF. After running the test you will see a score for ‘Bit
 <br>
 
 * Return two categories and results where you had the *highest* and *lowest* amount of identifying bits of information.
+  > HIGHEST: Screen Size and Color Depth: 15.06 bits,
+  > LOWEST: CPU Class: 0.09 bits
 
-* Why does identifiability matter? 
+* Why does identifiability matter?
+  > The more identifiable you are (the more you stand out from the crowd), the easier it is for webpages to track you. This includes your browsing behaviour and interests, which can then be used to give personalized ads and predict user behaviour for webpage optimization - and therefore reduce privacy. However, user tracking and identification is also used for security purposes (to way out bots and prevent fraud for example). So, identifiability matters because it shows how easy a user can be recognized from the user base and tracked. 
 
 * What pros and cons can you think of to being unique vs common?
+  > pro's unique: better overall webpage security, personalized ads (debatable), features tailored to device type and settings
+  > con's unique: easily trackable, user profile creation (and sharing with third-parties), low privacy
+  > pro's common: harder to track, better privacy
+  > con's common: generic content, security friction, worse webpage performance
 
 </details>
 
@@ -158,9 +179,9 @@ What are your Screen width and Screen height similarity percentage? You may or m
 <summary><strong>Return similarity percentage and explanations of your results for:</strong></summary>
 <br>
 
-* Canvas + WebGL Data
-* Screen width, Screen height
-* Screen available width, Screen available height, Can you explain your result?
+* Canvas + WebGL Data: 0.31% (unique graphics-related fingerprint, which reduces anonymous browsing and enables fingerprinting) 
+* Screen width, Screen height: 1.24% and 1.23% (I do not have my browser on full screen at the moment, which results in this score - but it is very dynamic interpretation)
+* Screen available width, Screen available height, Can you explain your result?: 1.21% and 0.18% (this is affected by toolbar configuration, dock position, screen size and other "unique" features that distinguise users. In my case, as mentioned above, the screen view settings were different from the norm which contributed to this result as well as my dock and menu bar configuration)
 
 </details>
 
