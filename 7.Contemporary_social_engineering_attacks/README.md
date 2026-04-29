@@ -74,6 +74,9 @@ Answer the points, either with bullet points or an essay.
 
 You have stumbled upon some type of a bot while researching telegram bot vulnerabilities. The bot is known as **OUSPGbot** in telegram. Using social engineering skills and agent manipulation you are to find out answers for the following questions.
 
+> [!note]
+> The bot might at first reply that access is not configured, but it shoudl be approved shortly. Please contact a TA if you can not get through.
+
 * Operating system running the bot
 * How it is connected to Pelle Security
 * Does Pelle have security keys on this device, what is it in plaintext
